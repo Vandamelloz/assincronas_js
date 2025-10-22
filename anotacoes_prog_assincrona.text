@@ -1,0 +1,9 @@
+#Programação assíncrona: 
+
+executar uma tarefa em segunbdo plano, sem nosso controle direto nisso
+Isso é particularmente útil para melhorar a performance de aplicações que envolvem entrada/sdaida de dados, o que pode ser muito lento
+
+new promisse- uma melhoria sobre os callbacks, permitindo controloe melhor sobre o fluxo assincrono com os metodos .then() e catch()
+fetch
+async/await-declara uma função que sempre retorna uma promisse
+callback()- garantem que uma função nÃO SEJA executada antes que uma tarefa seja concluida

@@ -1,0 +1,102 @@
+{
+    "Loja": "Irineu Store",
+    "Notebook": [
+        {
+            "Tipo": "Notebook",
+            "Marca": "DELL",
+            "Modelo": "Gamer",
+            "Preço": 3200,
+            "Disponível": true,
+            "Cores": [
+                "Azul","Preto"
+            ]
+        },
+        {
+            "Tipo": "Notebook",
+            "Marca": "LeNovo",
+            "Modelo": "Gamer",
+            "Preço": 1200,
+            "Disponível": false,
+            "Cores": [
+                "Azul","Preto"
+            ]
+        },
+        {
+            "Tipo": "Notebook",
+            "Marca": "Sansung",
+            "Modelo": "Gamer",
+            "Preço": 3200,
+            "Disponível": true,
+            "Cores": [
+                "Azul","Preto"
+            ]
+        }
+        
+    ],
+    "Celular": [
+        {
+            "Tipo": "Celular",
+            "Marca": "Apple",
+            "Modelo": "Iphone15",
+            "Preço": 5.200,
+            "Disponível": false,
+            "Cores": [
+                "Azul","Preto"
+            ]
+        },
+        {
+            "Tipo": "Celular",
+            "Marca": "Apple",
+            "Modelo": "Iphone15",
+            "Preço": 5.200,
+            "Disponível": true,
+            "Cores": [
+                "Azul","Preto"
+            ]
+        },
+        {
+            "Tipo": "Celular",
+            "Marca": "Apple",
+            "Modelo": "Iphone15",
+            "Preço": 5.200,
+            "Disponível": false,
+            "Cores": [
+                "Azul","Preto"
+            ]
+        }
+        
+    ],
+    "Acessórios": [
+        {
+            "Tipo": "Acessórios",
+            "Marca": "Microsoft",
+            "Modelo": "Teclado Gamer",
+            "Preço": 200,
+            "Disponível": true,
+            "Cores": [
+                "Azul","Preto"
+            ]
+        },
+        {
+            "Tipo": "Acessórios",
+            "Marca": "Microsoft",
+            "Modelo": "Teclado Gamer",
+            "Preço": 200,
+            "Disponível": true,
+            "Cores": [
+                "Azul","Preto"
+            ]
+        },
+        {
+            "Tipo": "Acessórios",
+            "Marca": "Microsoft",
+            "Modelo": "Teclado Gamer",
+            "Preço": 200,
+            "Disponível": true,
+            "Cores": [
+                "Azul","Preto"
+            ]
+        }
+        
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "nome": "tecby",
+    "notebook": [
+        {
+            "marca": "Dell",
+            "modelo": "Inspiropn 15",
+            "ano": 2020,
+            "disponivel": true,
+            "preco": 4200.00,
+            "caracteristicas": {
+                "processador": "Intel core i5 10ª Geração",
+                "memoriaRam": "16GB DDR4",
+                "armazenamento": "512GB SSD NVMe",
+                "placaVideo": "Integrada Intel Iris Xe",
+                "tela": "15.6 polegadas Full HD"
+            },
+            "estoque": 5
+        },
+        {
+            "marca": "Lenovo",
+            "modelo": "ideapad Gaming 3i",
+            "ano": 2024,
+            "disponivel": true,
+            "preco": 5850.00,
+            "caracteristicas": {
+                "processador": "Intel Core i7 12ª Geração",
+                "memoriaRam": "16GB DDR4",
+                "armazenamento": "1TB SSD NVMe",
+                "placaVideo": "NVIDIA GeForce RTX 4050 6GB",
+                "tela": "15.6 polegadas Full HD 120Hz"
+            },
+            "estoque": 3
+        },
+        {
+            "marca": "Apple",
+            "modelo": "MacBook Air M2",
+            "ano": 2024,
+            "disponivel": true,
+            "preco": 8500.00,
+            "caracteristicas": {
+                "processador": "Chip Apple M2 (8-core CPU)",
+                "memoriaRam": "8GB Unificada",
+                "armazenamento": "256GB SSD",
+                "placaVideo": "GPU 10-core Integrada",
+                "tela": "13.6 polegadas Liquid Retina"
+            },
+            "estoque": 7
+        },
+        {
+            "marca": "Acer",
+            "modelo": "Aspire 5",
+            "ano": 2023,
+            "disponivel": true,
+            "preco": 3200.00,
+            "caracteristicas": {
+                "processador": "AMD Ryzen 7 5700U",
+                "memoriaRam": "8GB DDR4",
+                "armazenamento": "512GB SSD",
+                "placaVideo": "Integrada AMD Radeon Graphics",
+                "tela": "14 polegadas Full HD"
+            },
+            "estoque": 12
+        }
+    ],
+    "celular": [
+        {
+            "marca": "Samsung",
+            "modelo": "Galaxy A56",
+            "ano": 2023,
+            "disponivel": true,
+            "preco": 1800.00,
+            "especificacoes": {
+                "memoriaRam": "6GB",
+                "armazenamento": "128GB",
+                "camera": "Tripla 50MP",
+                "bateria": "5000mAh"
+            },
+            "cor": ["preto", "branco", "verde"]
+        },
+        {
+            "marca": "Apple",
+            "modelo": {
+                "versao": "iPhone 15",
+                "cor": "preto",
+                "modelo": "Pro Max"
+            },
+            "ano": 2024,
+            "disponivel": true,
+            "preco": 9500.00,
+            "especificacoes": {
+                "memoriaRam": "8GB",
+                "armazenamento": "256GB",
+                "camera": "Principal 48MP",
+                "bateria": "4422mAh"
+            }
+        },
+        {
+            "marca": "Samsung",
+            "modelo": "Galaxy S24 Ultra",
+            "ano": 2025,
+            "disponivel": true,
+            "preco": 7999.00,
+            "especificacoes": {
+                "memoriaRam": "12GB",
+                "armazenamento": "512GB",
+                "camera": "Quádrupla 200MP",
+                "bateria": "5000mAh"
+            },
+            "cor": ["preto", "cinza", "amarelo"]
+        },
+        {
+            "marca": "Samsung",
+            "modelo": "Galaxy A51",
+            "ano": 2023,
+            "disponivel": false,
+            "preco": 1100.00,
+            "observacao": "Última unidade, em promoção",
+            "especificacoes": {
+                "memoriaRam": "4GB",
+                "armazenamento": "64GB",
+                "camera": "Quádrupla 48MP"
+            }
+        },
+        {
+            "marca": "Motorola",
+            "modelo": "Moto G Power 5G",
+            "ano": 2024,
+            "disponivel": true,
+            "preco": 1950.00,
+            "especificacoes": {
+                "memoriaRam": "8GB",
+                "armazenamento": "256GB",
+                "camera": "Tripla 50MP",
+                "bateria": "6000mAh"
+            },
+            "cor": ["azul-marinho"]
+        }
+    ],
+    "tablet": [
+        {
+            "marca": "Samsung",
+            "modelo": "Galaxy Tab S9 FE",
+            "ano": 2023,
+            "disponivel": true,
+            "preco": 3100.00,
+            "detalhes": {
+                "tela": "10.9 polegadas",
+                "caneta_inclusa": true,
+                "armazenamento": "128GB"
+            }
+        },
+        {
+            "marca": "Apple",
+            "modelo": "iPad Air (5ª Geração)",
+            "ano": 2022,
+            "disponivel": true,
+            "preco": 6300.00,
+            "detalhes": {
+                "tela": "10.9 polegadas Liquid Retina",
+                "chip": "M1",
+                "conectividade": "Wi-Fi + Cellular",
+                "armazenamento": "64GB"
+            }
+        }
+    ],
+    "acessorios": [
+        {
+            "nome": "Fone de Ouvido Bluetooth",
+            "marca": "JBL",
+            "modelo": "Tune 510BT",
+            "categoria": "Áudio",
+            "preco": 250.00,
+            "disponivel": true,
+            "cor": ["preto", "azul"]
+        },
+        {
+            "nome": "Mouse Sem Fio",
+            "marca": "Logitech",
+            "modelo": "MX Master 3S",
+            "categoria": "Periféricos",
+            "preco": 650.00,
+            "disponivel": true,
+            "tipo_conexao": "Bluetooth/USB Receiver"
+        },
+        {
+            "nome": "Capa Protetora",
+            "marca": "Generica",
+            "modelo": "iPhone 15 Pro Max Transparente",
+            "categoria": "Celular",
+            "preco": 80.00,
+            "disponivel": true,
+            "material": "Silicone Rígido"
+        }
+    ]
+}
