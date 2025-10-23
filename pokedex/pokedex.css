@@ -1,0 +1,213 @@
+/* ---------------------------------- */
+/* 1. ESTILO BASE E RESET             */
+/* ---------------------------------- */
+
+:root {
+    /* Cores principais */
+    --cor-primaria: #CC0000; /* Vermelho Pokeball */
+    --cor-secundaria: #3B4CCA; /* Azul Pokeball */
+    --cor-fundo: #f0f0f0; /* Fundo claro */
+    --cor-texto: #222;
+    --sombra-card: 0 4px 8px rgba(0, 0, 0, 0.2);
+    --borda-raio: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+/* ---------------------------------- */
+/* 2. CABEÇALHO E RODAPÉ              */
+/* ---------------------------------- */
+
+.pokedex-header {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: var(--sombra-card);
+    margin-bottom: 20px;
+}
+
+.pokedex-header h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.pokedex-footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    background-color: white;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* ---------------------------------- */
+/* 3. CONTAINER PRINCIPAL E GRID      */
+/* ---------------------------------- */
+
+.pokemon-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    /* Configuração inicial para grid (móvel) */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* ---------------------------------- */
+/* 4. ESTILO DO CARD (ITEM INDIVIDUAL) */
+/* ---------------------------------- */
+
+.pokemon-card {
+    background: white;
+    border-radius: var(--borda-raio);
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--sombra-card);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden; /* Para garantir que o fundo fique dentro do raio */
+}
+
+/* Efeito de hover */
+.pokemon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Número da Pokédex */
+.pokemon-id {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.4); /* Número mais discreto */
+}
+
+/* Imagem do Pokémon */
+.pokemon-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 10px auto;
+    filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.1));
+}
+
+/* Nome do Pokémon */
+.pokemon-name {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: var(--cor-secundaria);
+}
+
+/* ---------------------------------- */
+/* 5. TIPOS E ESTATÍSTICAS            */
+/* ---------------------------------- */
+
+.pokemon-types {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.type {
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-stats {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.pokemon-stats p {
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+
+/* ---------------------------------- */
+/* 6. CORES DOS TIPOS (MUITO IMPORTANTE!) */
+/* ---------------------------------- */
+
+/* As cores dos cards e dos spans de tipo são as mesmas para dar unidade */
+
+/* Cores de Fundo (Exemplo - Adicionar a classe ao .pokemon-card e ao .type) */
+
+.normal { background-color: #A8A878; }
+.fire { background-color: #F08030; }
+.water { background-color: #6890F0; }
+.electric { background-color: #F8D030; }
+.grass { background-color: #78C850; }
+.ice { background-color: #98D8D8; }
+.fighting { background-color: #C03028; }
+.poison { background-color: #A040A0; }
+.ground { background-color: #E0C068; }
+.flying { background-color: #A890F0; }
+.psychic { background-color: #F85888; }
+.bug { background-color: #A8B820; }
+.rock { background-color: #B8A038; }
+.ghost { background-color: #705898; }
+.dragon { background-color: #7038F8; }
+.steel { background-color: #B8B8D0; }
+.fairy { background-color: #EE99AC; }
+.dark { background-color: #705848; }
+
+/* Para dar um toque no card, use uma sombra ou borda da cor do tipo */
+/* Para o card, vamos apenas escurecer a cor de fundo ligeiramente */
+.pokemon-card.fire { border: 3px solid #F08030; }
+.pokemon-card.water { border: 3px solid #6890F0; }
+/* ... (repita a borda para todos os tipos principais) ... */
+
+
+/* ---------------------------------- */
+/* 7. RESPONSIVIDADE                  */
+/* ---------------------------------- */
+
+/* Tablet e Telas Maiores */
+@media (min-width: 768px) {
+    .pokemon-list-container {
+        /* 3 colunas em telas médias */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        padding: 25px;
+    }
+
+    .pokemon-header h1 {
+        font-size: 3em;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .pokemon-list-container {
+        /* 4 colunas em telas grandes */
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
