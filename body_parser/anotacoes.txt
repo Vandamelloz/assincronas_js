@@ -1,0 +1,61 @@
+###ERROS NO TERMINAL 
+PS C:\Users\Vanderléia\Documents\GitHub\assincronas_js> npm -v
+10.9.3
+PS C:\Users\Vanderléia\Documents\GitHub\assincronas_js> npm init -y
+Wrote to C:\Users\Vanderléia\Documents\GitHub\assincronas_js\package.json:
+
+{
+  "name": "assincronas_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vandamelloz/assincronas_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vandamelloz/assincronas_js/issues"
+  },
+  "homepage": "https://github.com/Vandamelloz/assincronas_js#readme"
+}
+
+
+
+  },
+  "homepage": "https://github.com/Vandamelloz/assincronas_js#readme"
+}
+
+
+  },
+  "homepage": "https://github.com/Vandamelloz/assincronas_js#readme"
+}
+
+  },
+  "homepage": "https://github.com/Vandamelloz/assincronas_js#readme"
+}
+  },
+  "homepage": "https://github.com/Vandamelloz/assincronas_js#readme"
+  },
+  },
+  },
+  "homepage": "https://github.com/Vandamelloz/assincronas_js#readme"
+}
+
+
+
+PS C:\Users\Vanderléia\Documents\GitHub\assincronas_js> npm install express
+
+added 68 packages, and audited 69 packages in 3s
+
+16 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Vanderléia\Documents\GitHub\assincronas_js> node body_parser\app.js
+Servidor rodando na url https://localhost8080
